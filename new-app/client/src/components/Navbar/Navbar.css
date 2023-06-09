@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+  background: black;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  padding: 0 1%;
+}

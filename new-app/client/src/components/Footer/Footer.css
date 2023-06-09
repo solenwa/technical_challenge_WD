@@ -1,0 +1,57 @@
+.footer {
+  max-height: 10vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Link {
+  width: 5%;
+}
+
+.footer .row {
+  width: 100%;
+  height: 5vh;
+  margin: 5px;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer .row a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer .row .Link {
+  color: gray;
+  transition: 0.5s;
+  margin: 2%;
+}
+
+.footer .row .Link:hover {
+  color: #fff;
+}
+
+.footer .row ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+}
+
+.footer .row ul li {
+  list-style-type: none;
+  width: 100%;
+  color: gray;
+}
+
+.footer p {
+  margin: 0;
+}
