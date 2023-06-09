@@ -11,6 +11,7 @@ function PhoneDetailPage() {
       const response = await axios.get(
         `${import.meta.env.VITE_API_URL}/api/phones/${id}`
       );
+      // Here I needed to import a vite config as well
       setPhoneDetails(response.data);
     } catch (error) {
       console.log(error);
